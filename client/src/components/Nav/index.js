@@ -7,7 +7,7 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <Link className="navbar-brand" to="/">
-        Google Books Search
+        Google Book Search
       </Link>
       <div>
         <ul className="navbar-nav">
