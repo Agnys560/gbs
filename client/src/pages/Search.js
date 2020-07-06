@@ -3,6 +3,7 @@ import axios from "axios";
 import SearchForm from "../components/SearchForm";
 import SearchResults from "../components/SearchResults";
 
+//apikey jonathanmodlin1@gmail.com
 const GOOGLE_API_KEY = "AIzaSyA9fElmSPRo7VFog9gKGCirX39ZPhMpwws";
 
 class Search extends Component {
@@ -42,7 +43,7 @@ class Search extends Component {
   render() {
     return (
       <div>
-        <h2>Book Search</h2>
+        <h2>Seach Book</h2>
         <SearchForm
           handleFormSubmit={this.handleFormSubmit}
           handleInputChange={this.handleInputChange}

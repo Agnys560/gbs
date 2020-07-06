@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+//
+// nav function
 
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <Link className="navbar-brand" to="/">
-        React Google Books Search
+        Google Books Search
       </Link>
       <div>
         <ul className="navbar-nav">

@@ -8,10 +8,10 @@ const BookSchema = new Schema({
   authors: {
     type: String
   },
-  description: {
+  image: {
     type: String
   },
-  image: {
+  synopsis: {
     type: String
   },
   link: {
