@@ -14,7 +14,7 @@ class App extends Component {
         <Fragment>
           <Nav />
           <Jumbotron>
-            <h1>Google Books Search</h1>
+            <h1>Google Books Search!</h1>
           </Jumbotron>
           <Switch>
             <Route exact path="/" component={Search} />
