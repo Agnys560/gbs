@@ -5,6 +5,8 @@ import Nav from "./components/Nav";
 import Search from "./pages/Search";
 import Saved from "./pages/Saved";
 
+//
+
 class App extends Component {
   render() {
     return (
@@ -12,7 +14,7 @@ class App extends Component {
         <Fragment>
           <Nav />
           <Jumbotron>
-            <h1>(React) Google Books Search</h1>
+            <h1>Google Books Search</h1>
           </Jumbotron>
           <Switch>
             <Route exact path="/" component={Search} />

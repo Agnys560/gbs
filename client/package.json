@@ -1,7 +1,7 @@
 {
-  "name": "google-books-search-client",
+  "name": "gbs",
   "version": "0.1.0",
-  "description": "Google Books Search client in React",
+  "description": "Google Books Search",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {

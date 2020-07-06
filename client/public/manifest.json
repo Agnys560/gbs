@@ -1,6 +1,6 @@
 {
-  "short_name": "Google Books Search",
-  "name": "Google Books Search React App",
+  "short_name": "gbs",
+  "name": "Google Books Search",
   "icons": [
     {
       "src": "favicon.ico",

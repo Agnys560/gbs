@@ -1,7 +1,7 @@
 {
-  "name": "google-books-search",
+  "name": "gbs",
   "version": "1.0.0",
-  "description": "React-based Google Books Search app",
+  "description": "google book search",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
