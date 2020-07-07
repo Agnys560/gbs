@@ -1,4 +1,4 @@
-const GOOGLE_API_KEY = "AIzaSyACTYym68zoTsukMZ9cAWm123nbMMvqk74";
+const GOOGLE_API_KEY = "AIzaSyA9fElmSPRo7VFog9gKGCirX39ZPhMpwws";
 
 const mongoose = require("mongoose");
 const MONGODB_URI =
@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 if (process.env.NODE_ENV === "production") {
-  app.use('/static', express.static(path.join(__dirname, 'client/build')));;
+  app.use(express.static("client/build"));
 }
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
