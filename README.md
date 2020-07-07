@@ -56,5 +56,3 @@ Use React routing and socket.io to create a notification or a component that tri
 
 Say you have multiple browsers open, each one visiting your site. If you save an book in one browser, then all of your browsers should notify you that a new book was saved.
 
-
-Socket.io NPM package
