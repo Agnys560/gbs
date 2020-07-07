@@ -1,4 +1,4 @@
-const GOOGLE_API_KEY = "AIzaSyA9fElmSPRo7VFog9gKGCirX39ZPhMpwws";
+const GOOGLE_API_KEY = "AIzaSyACTYym68zoTsukMZ9cAWm123nbMMvqk74";
 
 const mongoose = require("mongoose");
 const MONGODB_URI =

@@ -3,8 +3,8 @@ import axios from "axios";
 import SearchForm from "../components/SearchForm";
 import SearchResults from "../components/SearchResults";
 
-//apikey jonathanmodlin1@gmail.com
-const GOOGLE_API_KEY = "AIzaSyA9fElmSPRo7VFog9gKGCirX39ZPhMpwws";
+//apikey
+const GOOGLE_API_KEY = "AIzaSyACTYym68zoTsukMZ9cAWm123nbMMvqk74";
 
 class Search extends Component {
   state = {
