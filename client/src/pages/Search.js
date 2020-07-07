@@ -4,7 +4,7 @@ import SearchForm from "../components/SearchForm";
 import SearchResults from "../components/SearchResults";
 
 //apikey
-const GOOGLE_API_KEY = "AIzaSyACTYym68zoTsukMZ9cAWm123nbMMvqk74";
+const GOOGLE_API_KEY = "AIzaSyA9fElmSPRo7VFog9gKGCirX39ZPhMpwws";
 
 class Search extends Component {
   state = {
